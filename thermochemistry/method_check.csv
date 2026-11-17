@@ -1,0 +1,35 @@
+id,calculation,ORCA version,method line(s),frequencies,matches the SI,differences,status
+carbene,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+carbene,DLPNO-CCSD(T) single point,6.1.0-f.0,!DLPNO-CCSD(T) def2-TZVPP def2-TZVPP/C TightPNO !RIJCOSX def2/J TightSCF defgrid2,none,True,,complete
+tetracyclone,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+tetracyclone,DLPNO-CCSD(T) single point,6.1.0-f.0,!DLPNO-CCSD(T) def2-TZVPP def2-TZVPP/C TightPNO !RIJCOSX def2/J TightSCF defgrid2,none,True,,complete
+complex_Z,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+TS_SSZ,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OptTS Freq TightOPT TightSCF defgrid2,analytic,True,,complete
+SSZ,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+complex_E,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+TS_SSE,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OptTS Freq TightOPT TightSCF defgrid2,analytic,True,,complete
+SSE,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+TS_FBW,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OptTS NumFreq TightOPT TightSCF defgrid2,numerical,True,,complete
+TS_FBW,DLPNO-CCSD(T) single point,6.1.0-f.0,!DLPNO-CCSD(T) def2-TZVPP def2-TZVPP/C TightPNO !RIJCOSX def2/J TightSCF defgrid2,none,True,,complete
+alkyne,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+alkyne,DLPNO-CCSD(T) single point,6.1.0-f.0,!DLPNO-CCSD(T) def2-TZVPP def2-TZVPP/C TightPNO !RIJCOSX def2/J TightSCF defgrid2,none,True,,complete
+complex_alkyne,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,freq
+TS_DA,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OptTS Freq TightOPT TightSCF defgrid2,analytic,True,,complete
+TS_DA_a1,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OptTS Freq TightOPT TightSCF defgrid2,analytic,True,,complete
+adduct,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+TS_CO,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OptTS Freq TightOPT TightSCF defgrid2,analytic,True,,complete
+complex_prodCO,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,unconverged
+product,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+CO,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+ep_SSZ_F,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,freq
+ep_SSZ_B,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+ep_SSE_F,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+ep_SSE_B,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+ep_FBW_F,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+ep_FBW_B,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,complete
+ep_DA_F,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,freq
+ep_DA_B,M06-2X Opt/OptTS + Freq,6.1.0-f.0,!M062X def2-TZVP D3Zero !OPT FREQ TightOPT TightSCF defgrid2,analytic,True,,freq
+irc_SSZ,M06-2X IRC,6.1.0-f.0,!M062X def2-TZVP D3Zero !IRC TightSCF defgrid2,IRC,True,,complete
+irc_SSE,M06-2X IRC,6.1.0-f.0,!M062X def2-TZVP D3Zero !IRC TightSCF defgrid2,IRC,True,,complete
+irc_FBW,M06-2X IRC,6.1.0-f.0,!M062X def2-TZVP D3Zero !IRC TightSCF defgrid2,IRC,True,,complete
+irc_DA,M06-2X IRC,6.1.0-f.0,!M062X def2-TZVP D3Zero !IRC TightSCF defgrid2,IRC,True,,complete

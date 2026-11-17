@@ -1,0 +1,4 @@
+Copied on 2026-11-18 by tools/collect.py from the project folder (paths relative to it).
+output.out.gz: attempt3/Step1_minima/path1b_carbene-tetracyclone-complex-E/output.out
+  state when copied: optimisation converged, frequencies done, terminated normally
+The host name and working directory in the outputs are redacted.

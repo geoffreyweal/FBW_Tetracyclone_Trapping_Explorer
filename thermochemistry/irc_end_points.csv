@@ -1,0 +1,11 @@
+irc,TS,IRC done,end,direction,status,Nimag,E_rel_TS_kJ/mol,compared_with,measure,value_A,heavy_atom_RMSD_A,dEel_kJ/mol,dG_kJ/mol,same_structure
+irc_SSZ,TS_SSZ,True,ep_SSZ_F,forward,freq,,-20.9,complex_Z,RMSD,0.233,0.176,0.10,,True
+irc_SSZ,TS_SSZ,True,ep_SSZ_B,backward,complete,0,-304.2,SSZ,RMSD,0.127,0.098,-0.02,1.24,True
+irc_SSE,TS_SSE,True,ep_SSE_F,forward,complete,0,-295.3,SSE,RMSD,0.010,0.008,-0.04,0.24,True
+irc_SSE,TS_SSE,True,ep_SSE_B,backward,complete,0,-18.4,complex_E,RMSD,0.083,0.057,0.09,0.48,True
+irc_FBW,TS_FBW,True,ep_FBW_F,forward,complete,0,-28.1,carbene,RMSD,0.001,0.000,-0.00,0.01,True
+irc_FBW,TS_FBW,True,ep_FBW_B,backward,complete,0,-78.5,alkyne,distance RMS (atom order differs),0.013,,-0.17,-0.41,True
+irc_DA,TS_DA,True,ep_DA_F,forward,freq,,-262.2,adduct,RMSD,0.677,0.403,0.71,,False
+irc_DA,TS_DA,True,ep_DA_B,backward,freq,,-23.3,complex_alkyne,RMSD,0.003,0.002,-0.00,,True
+irc_CO,TS_CO,False,ep_CO_F,forward,not started,,,,,,,,,
+irc_CO,TS_CO,False,ep_CO_B,backward,not started,,,,,,,,,

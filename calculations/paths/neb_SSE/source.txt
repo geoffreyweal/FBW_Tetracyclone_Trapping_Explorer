@@ -1,0 +1,2 @@
+Copied on 2026-11-18 by tools/collect.py from the project folder (paths relative to it):
+attempt3/Step2_NEB-TS/path1b_SSE-TSb/orca_MEP_trj.xyz

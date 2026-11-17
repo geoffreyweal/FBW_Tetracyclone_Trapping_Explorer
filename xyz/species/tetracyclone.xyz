@@ -1,5 +1,5 @@
 50
-Tetracyclone (trapping reagent) | M06-2X/def2-TZVP D3Zero CPCM | E = -1192.295058000 Eh
+Tetracyclone (trapping reagent) | M06-2X/def2-TZVP D3(0) CPCM(CH2Cl2) | Eel(M06-2X) = -1192.295058 Eh; Eel(DLPNO-CCSD(T)) = -1190.165957 Eh; G(M06-2X, 313.15 K, 1 M) = -1191.943655 Eh
 C     -0.62346000     3.00455700    -4.46358800
 C      0.32966200     2.15185100    -3.91125300
 C      1.40360500     1.73167200    -4.69780700

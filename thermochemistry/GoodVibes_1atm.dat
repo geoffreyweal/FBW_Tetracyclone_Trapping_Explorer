@@ -1,0 +1,61 @@
+# goodvibes --temp 313.15 -v 1.0 --imag --check <structure>.out ...   (run by tools/build_site.py)
+      ________   ________   ________    _______   ________   ________   ________   ________   ________ 
+     ╱        ╲ ╱        ╲ ╱        ╲ _╱       ╲ ╱    ╱   ╲ ╱        ╲ ╱       ╱  ╱        ╲ ╱        ╲
+    ╱   G   __╱╱    O    ╱╱    O    ╱╱    D    ╱╱    V    ╱_╱   I   ╱ ╱    B   ╲ ╱    E    ╱╱    S   _╱
+   ╱       ╱ ╱╱         ╱╱         ╱╱         ╱ ╲        ╱╱         ╱╱         ╱╱        _╱╱- v4.3.0 ╱ 
+   ╲________╱ ╲________╱ ╲________╱ ╲________╱   ╲______╱ ╲________╱ ╲________╱ ╲________╱ ╲________╱
+
+   Citation: Luchini, G.; Alegre-Requena, J. V.; Funes-Ardoiz, I.; Paton, R. S. F1000Research, 2020, 9, 291.
+   DOI: 10.12688/f1000research.22758.1
+   Temperature = 313.15 Kelvin   Pressure = 1 atm
+   User-defined vibrational scale factor 1.0 for M062X/def2-TZVP level of theory
+   Caution! Implicit solvation (SMD/CPCM) detected. Enthalpic and entropic terms cannot be safely separated. Use them at your own risk!
+
+   ✔ Using mRRHO entropies with a frequency cut-off value (tau) of 100.0 cm-1
+     Grimme, S. Chem. Eur. J. 2012, 18, 9955-9964
+   ✔ Point group symmetry parsed directly from outputs - caution if not provided or incorrect! Use --symm to auto-detect with pymsym
+
+      Structure                 E        ZPE              H        T.S     T.qh-S           G(T)        qh-G(T)    im freq
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+o     adduct         -1542.443021   0.594841   -1541.813497   0.103205   0.095080   -1541.916702   -1541.908577           
+o     alkyne          -350.041641   0.188631    -349.843861   0.042562   0.042387    -349.886424    -349.886249           
+o     carbene         -350.022495   0.187112    -349.825862   0.043759   0.043348    -349.869620    -349.869209           
+o     CO              -113.322954   0.005169    -113.314314   0.023713   0.023713    -113.338027    -113.338027           
+o     complex_E      -1542.334880   0.589483   -1541.708249   0.110426   0.100684   -1541.818675   -1541.808933           
+o     complex_Z      -1542.332343   0.589082   -1541.705774   0.113383   0.102146   -1541.819156   -1541.807920           
+o     ep_FBW_B        -350.041706   0.188603    -349.843891   0.042926   0.042514    -349.886816    -349.886405           
+o     ep_FBW_F        -350.022495   0.187114    -349.825862   0.043753   0.043344    -349.869615    -349.869206           
+o     ep_SSE_B       -1542.334848   0.589517   -1541.708230   0.110035   0.100520   -1541.818265   -1541.808751           
+o     ep_SSE_F       -1542.440347   0.593755   -1541.811269   0.105860   0.096804   -1541.917129   -1541.908073           
+o     ep_SSZ_B       -1542.440214   0.593395   -1541.811417   0.106099   0.096876   -1541.917516   -1541.908293           
+o     product        -1429.163521   0.585178   -1428.545311   0.099378   0.091786   -1428.644689   -1428.637098           
+o     SSE            -1542.440333   0.593694   -1541.811292   0.106020   0.096873   -1541.917312   -1541.908165           
+o     SSZ            -1542.440208   0.593297   -1541.811431   0.107008   0.097332   -1541.918439   -1541.908764           
+o     tetracyclone   -1192.295058   0.401499   -1191.866946   0.085685   0.079928   -1191.952632   -1191.946875           
+o     TS_CO          -1542.412761   0.592007   -1541.785788   0.103144   0.095412   -1541.888932   -1541.881200    -446.60
+o     TS_DA          -1542.342879   0.590487   -1541.716676   0.105498   0.097210   -1541.822173   -1541.813886    -237.58
+o     TS_DA_a1       -1542.341926   0.590643   -1541.715507   0.106399   0.097677   -1541.821906   -1541.813184    -212.48
+o     TS_FBW          -350.011791   0.186929    -349.815976   0.042013   0.041925    -349.857989    -349.857901    -362.52
+o     TS_SSE         -1542.327858   0.589673   -1541.702308   0.106315   0.097697   -1541.808623   -1541.800005    -230.35
+o     TS_SSZ         -1542.324348   0.590244   -1541.698355   0.105247   0.097204   -1541.803602   -1541.795559    -213.98
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+   ✔ Structured results written to 1atm.json (schema v1.0).
+   Checks for thermochemistry calculations (frequency calculations):
+   ********************************************************************************************************************************
+o  Using ORCA version 6.1.0-f.0 in all calculations.
+o  Using M062X/def2-TZVP in all calculations.
+o  Using P in all calculations.
+   x Using a standard concentration of 1 atm for solvent phase (option -c 1 should be included for 1 M).
+o  Using charge 0 and multiplicity 1 in all calculations.
+
+   Checking for duplicate structures. Applying: e_cutoff=0.05 kcal/mol, ro_cutoff=1.0%
+   x Caution! Possible duplicates or enantiomers found:
+        ep_FBW_B.out and alkyne.out
+        ep_FBW_F.out and carbene.out
+        ep_SSE_B.out and complex_E.out
+        SSE.out and ep_SSE_F.out
+        SSZ.out and ep_SSZ_B.out
+o  All the linear molecules have the correct number of frequencies -CO.out.
+o  Using  in all calculations.
+   ********************************************************************************************************************************

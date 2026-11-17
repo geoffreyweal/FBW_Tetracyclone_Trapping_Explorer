@@ -1,0 +1,38 @@
+reaction,state,structures,dEel_kJ/mol,dG_1M_kJ/mol,dG_1atm_kJ/mol,dEel_DLPNO_kJ/mol,dG_composite_1M_kJ/mol
+"FBW rearrangement, 6→7 ([2.2.2] carbene → [3.2.2] alkyne)",[2.2.2] carbene,carbene,0.0,0.0,0.0,0.0,0.0
+"FBW rearrangement, 6→7 ([2.2.2] carbene → [3.2.2] alkyne)",#-FBW-TS,TS_FBW,28.1,29.69,29.69,39.5,41.09
+"FBW rearrangement, 6→7 ([2.2.2] carbene → [3.2.2] alkyne)",[3.2.2] alkyne,alkyne,-50.27,-44.74,-44.74,-50.32,-44.79
+"[1+2] trapping by tetracyclone, Z face",[2.2.2] carbene + tetracyclone,carbene + tetracyclone,0.0,0.0,0.0,0.0,0.0
+"[1+2] trapping by tetracyclone, Z face",Carbene·tetracyclone complex (Z),complex_Z,-38.83,12.98,21.43,,
+"[1+2] trapping by tetracyclone, Z face","S,S,Z-#-TSa",TS_SSZ,-17.84,45.44,53.89,,
+"[1+2] trapping by tetracyclone, Z face","S,S,Z-#",ep_SSZ_B,-322.05,-250.55,-242.09,,
+"[1+2] trapping by tetracyclone, E face",[2.2.2] carbene + tetracyclone,carbene + tetracyclone,0.0,0.0,0.0,0.0,0.0
+"[1+2] trapping by tetracyclone, E face",Carbene·tetracyclone complex (E),ep_SSE_B,-45.41,10.8,19.25,,
+"[1+2] trapping by tetracyclone, E face","S,S,E-#-TSb",TS_SSE,-27.05,33.76,42.22,,
+"[1+2] trapping by tetracyclone, E face","S,S,E-#",ep_SSE_F,-322.4,-249.97,-241.52,,
+[4+2] trapping of the [3.2.2] alkyne by tetracyclone,[3.2.2] alkyne + tetracyclone,alkyne + tetracyclone,0.0,0.0,0.0,0.0,0.0
+[4+2] trapping of the [3.2.2] alkyne by tetracyclone,Alkyne·tetracyclone complex,ep_DA_B,-39.56,,,,
+[4+2] trapping of the [3.2.2] alkyne by tetracyclone,#-TS [4+2],TS_DA,-16.22,42.06,50.51,,
+[4+2] trapping of the [3.2.2] alkyne by tetracyclone,[4+2] adduct from the lowest [4+2] TS,ep_DA_F,-278.44,,,,
+[4+2] trapping of the [3.2.2] alkyne by tetracyclone,"#-TS [4+2], higher conformer",TS_DA_a1,-13.72,43.9,52.35,,
+[4+2] trapping of the [3.2.2] alkyne by tetracyclone,[4+2] adduct,adduct,-279.15,-206.56,-198.1,,
+CO extrusion from the [4+2] adduct,[4+2] adduct,adduct,0.0,0.0,0.0,,
+CO extrusion from the [4+2] adduct,#-TS CO extrusion,TS_CO,79.45,71.88,71.88,,
+CO extrusion from the [4+2] adduct,Decarbonylated product·CO complex,complex_prodCO,-134.67,,,,
+CO extrusion from the [4+2] adduct,Decarbonylated product + CO,product + CO,-114.09,-166.27,-174.72,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)",[2.2.2] carbene + tetracyclone,carbene + tetracyclone,0.0,0.0,0.0,0.0,0.0
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)",Carbene·tetracyclone complex (Z),complex_Z,-38.83,12.98,21.43,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)","S,S,Z-#-TSa",TS_SSZ,-17.84,45.44,53.89,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)","S,S,Z-#",ep_SSZ_B,-322.05,-250.55,-242.09,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)",Carbene·tetracyclone complex (E),ep_SSE_B,-45.41,10.8,19.25,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)","S,S,E-#-TSb",TS_SSE,-27.05,33.76,42.22,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)","S,S,E-#",ep_SSE_F,-322.4,-249.97,-241.52,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)",#-FBW-TS + tetracyclone,TS_FBW + tetracyclone,28.1,29.69,29.69,39.5,41.09
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)",[3.2.2] alkyne + tetracyclone,alkyne + tetracyclone,-50.27,-44.74,-44.74,-50.32,-44.79
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)",Alkyne·tetracyclone complex,ep_DA_B,-89.83,,,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)",#-TS [4+2],TS_DA,-66.49,-2.68,5.77,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)",[4+2] adduct from the lowest [4+2] TS,ep_DA_F,-328.7,,,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)",[4+2] adduct,adduct,-329.41,-251.29,-242.84,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)",#-TS CO extrusion,TS_CO,-249.97,-179.41,-170.96,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)",Decarbonylated product·CO complex,complex_prodCO,-464.08,,,,
+"Whole surface, relative to [2.2.2] carbene + tetracyclone (the PDF's 0)",Decarbonylated product + CO,product + CO,-443.51,-417.56,-417.56,,

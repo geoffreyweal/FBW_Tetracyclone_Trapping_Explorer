@@ -1,0 +1,591 @@
+{
+ "calculations": {
+  "CO": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "d01b8214fcf18c66ee161e6a8548e13640c6a67e16bd2d9b2b7d8264cd485dde",
+    "source": "original_data/FBW_paper/working/06_analysis/final_DFT/carbon-monoxide.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "CO"
+  },
+  "SSE": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "dd0331893e0aaeeee99e2376db97b41f6e7b1d0ee84930d2f70e862c66857afb",
+    "source": "original_data/FBW_paper/working/06_analysis/final_DFT/67-carbene-tetracyclone-SSE-trap.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "SSE"
+  },
+  "SSZ": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "cf45730076994d91edeb0cdf885260ca63ef2f532eaee662b865c7ce5c38a3c1",
+    "source": "original_data/FBW_paper/working/06_analysis/final_DFT/67-carbene-tetracyclone-SSZ-trap.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "SSZ"
+  },
+  "TS_CO": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "fa207cf97ffa572459f8dc69000d71c61d5033fe1f7d98d23bc52feceea3ce9f",
+    "source": "attempt1/orca6_TSopt_v2/67-alkyne-tetracyclone-decarbonylation-TS/output.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "TS_CO"
+  },
+  "TS_DA": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "368cf0769c4daf69a8ec2d4461680cfa8e2b06c074df34625806e1826350e029",
+    "source": "attempt3/Step3_TS_from_long-NEB/path2b_DielsAlder-TS/output.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "TS_DA"
+  },
+  "TS_DA_a1": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "850dcde293f06e8c1403f75aa1293a26d2524d5ffe0db752bd46ba54aa663ffa",
+    "source": "attempt1/orca6_TSopt_v2/67-alkyne-tetracyclone-trap-TS/output.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "TS_DA_a1"
+  },
+  "TS_FBW": {
+   "cc": {
+    "collected": "2026-11-18",
+    "file": "dlpno.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "c491c86c656a57b842b76344039817061dce3b559716d93fe30191cd0427c161",
+    "source": "DLPNO_Section/Step1_DLPNO/67-FBW-TS/output.out",
+    "state": "terminated normally"
+   },
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "94d740160db14acb1e9a3194e33c0e58192eea84143052283e4129537f98321d",
+    "source": "original_data/FBW_paper/working/06_analysis/final_DFT/67-FBW-TS.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "TS_FBW"
+  },
+  "TS_SSE": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "b81a7ebf9a0957c92200f58a8524552bac88d3812f337d604fa2d665a20835cc",
+    "source": "attempt1/orca6_TSopt_v2/67-carbene-tetracyclone-SSE-trap-TSb/output.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "TS_SSE"
+  },
+  "TS_SSZ": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "a1c991eef3696fda9395e4bfe7d1de62ea987f1d305a28887103b49c63eea997",
+    "source": "attempt1/orca6_TSopt_v2/67-carbene-tetracyclone-SSZ-trap-TSa/output.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "TS_SSZ"
+  },
+  "adduct": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "bdc3ac0a6a5a27d88eb6c5211f1898d6c4066c055158895aefe3de63d324fd44",
+    "source": "original_data/FBW_paper/working/06_analysis/final_DFT/67-alkyne-tetracyclone-trap.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "adduct"
+  },
+  "alkyne": {
+   "cc": {
+    "collected": "2026-11-18",
+    "file": "dlpno.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "fdea2c7fe376ff1040130ffb4080168cbe73af6b7b50b2f6dfbfc0af858df09b",
+    "source": "DLPNO_Section/Step1_DLPNO/67-alkyne/output.out",
+    "state": "terminated normally"
+   },
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "746aabac8df7a49d24bce7802e79f1ec00a9c9da3e10f8a79ac958b5f1ea44c7",
+    "source": "original_data/FBW_paper/working/06_analysis/final_DFT/67-alkyne.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "alkyne"
+  },
+  "carbene": {
+   "cc": {
+    "collected": "2026-11-18",
+    "file": "dlpno.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "d79c051fc5080ab91ec706057e5a19c561471161b3808251e164218c2cede093",
+    "source": "DLPNO_Section/Step1_DLPNO/67-carbene/output.out",
+    "state": "terminated normally"
+   },
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "376136933623fd724212966dbc538464399e9c69879fadeb7feb490d7f7ac682",
+    "source": "original_data/FBW_paper/working/06_analysis/final_DFT/67-carbene.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "carbene"
+  },
+  "complex_E": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "f721b2d15d35fb70a03e369b9f63e94920bc5aa8df8940678730631a65b1ee41",
+    "source": "attempt3/Step1_minima/path1b_carbene-tetracyclone-complex-E/output.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "complex_E"
+  },
+  "complex_Z": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "3ba7579072fd1e86a7aa608848b59f999884dd6528834bd0c440d459c9bb6866",
+    "source": "attempt3/Step1_minima/path1a_carbene-tetracyclone-complex-Z/output.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "complex_Z"
+  },
+  "complex_alkyne": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": false,
+    "note": "",
+    "sha256": "c9515d7d83d5d5cd76510bd01f3cbd00e0091190bd076c0e9c0742311b4fa224",
+    "source": "attempt3/Step1_minima/path2b_alkyne-tetracyclone-complex/output.out",
+    "state": "optimisation converged, frequencies not done yet, still running or stopped"
+   },
+   "id": "complex_alkyne"
+  },
+  "complex_prodCO": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": false,
+    "note": "",
+    "sha256": "5c589d43ffbc1d52c53b4a6c7e2225f57dead02299504f7bbe9d3a4e95866ab1",
+    "source": "attempt3/Step1_minima/path2c_decarbonylated-product-CO-complex/output.out",
+    "state": "optimisation not converged, frequencies not done yet, still running or stopped"
+   },
+   "id": "complex_prodCO"
+  },
+  "ep_DA_B": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": false,
+    "note": "",
+    "sha256": "f1777bf10796cb0a1fbb92f5dcad6f84440762786e37d686e6c89f8448297d20",
+    "source": "IRC_Section/Step2_IRC_endpoints/path2b_DielsAlder-TS_backward/output.out",
+    "state": "optimisation converged, frequencies not done yet, still running or stopped"
+   },
+   "id": "ep_DA_B"
+  },
+  "ep_DA_F": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": false,
+    "note": "",
+    "sha256": "04e01fdc236c68d44d423500620250852a94e446bb1dcba1859be2a2fc50d737",
+    "source": "IRC_Section/Step2_IRC_endpoints/path2b_DielsAlder-TS_forward/output.out",
+    "state": "optimisation converged, frequencies not done yet, still running or stopped"
+   },
+   "id": "ep_DA_F"
+  },
+  "ep_FBW_B": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "a0b99834df63fc4c268dfbbb80d80a58383c01e6fa62fdba26d450126cc29310",
+    "source": "IRC_Section/Step2_IRC_endpoints/path2a_FBW-TS_backward/output.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "ep_FBW_B"
+  },
+  "ep_FBW_F": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "d1f407a6186b993196b54908fc46319081f7b7902a034f6b4f421c9d0e26722a",
+    "source": "IRC_Section/Step2_IRC_endpoints/path2a_FBW-TS_forward/output.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "ep_FBW_F"
+  },
+  "ep_SSE_B": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "02d485653f00669a5079234b5cb5f2892ce3385aa767c105ccfd7412d8193c51",
+    "source": "IRC_Section/Step2_IRC_endpoints/path1b_SSE-TSb_backward/output.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "ep_SSE_B"
+  },
+  "ep_SSE_F": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "2224f333c800ff5aabaef5a1f9af2c8db08251e48598ac3f38f7066cd24fa3aa",
+    "source": "IRC_Section/Step2_IRC_endpoints/path1b_SSE-TSb_forward/output.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "ep_SSE_F"
+  },
+  "ep_SSZ_B": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "31e9db869937819d197c221f1c0d0de76872c356e7907519ce1d9200eeaa2324",
+    "source": "IRC_Section/Step2_IRC_endpoints/path1a_SSZ-TSa_backward/output.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "ep_SSZ_B"
+  },
+  "ep_SSZ_F": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": false,
+    "note": "",
+    "sha256": "d448e0ba7b45a52530e9e553aa9c50560e66eeda431dc1bdcb7a41378a22740b",
+    "source": "IRC_Section/Step2_IRC_endpoints/path1a_SSZ-TSa_forward/output.out",
+    "state": "optimisation converged, frequencies not done yet, still running or stopped"
+   },
+   "id": "ep_SSZ_F"
+  },
+  "irc_DA": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "d471918710b18d27a899fa73daf29f6ca78c40e2d98f56b7b44b5d481d26f2ab",
+    "source": "IRC_Section/Step1_IRC/path2b_DielsAlder-TS/output.out",
+    "state": "IRC converged in 2 direction(s), terminated normally"
+   },
+   "id": "irc_DA",
+   "trajectory": "trajectory.xyz"
+  },
+  "irc_FBW": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "9c1890c0ff32324d418d85f410113744e64afa34793ff4ca2cf8d9bd9277a735",
+    "source": "IRC_Section/Step1_IRC/path2a_FBW-TS/output.out",
+    "state": "IRC converged in 2 direction(s), terminated normally"
+   },
+   "id": "irc_FBW",
+   "trajectory": "trajectory.xyz"
+  },
+  "irc_SSE": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "40128f6e16f28a0fc8668d0c5375e074a95cce7bd6a624a806a2a09e8038cf3a",
+    "source": "IRC_Section/Step1_IRC/path1b_SSE-TSb/output.out",
+    "state": "IRC converged in 2 direction(s), terminated normally"
+   },
+   "id": "irc_SSE",
+   "trajectory": "trajectory.xyz"
+  },
+  "irc_SSZ": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "b36adb8e4535499996367979138db224b61ab9aece38c533a046b0a7d2f0499d",
+    "source": "IRC_Section/Step1_IRC/path1a_SSZ-TSa/output.out",
+    "state": "IRC converged in 2 direction(s), terminated normally"
+   },
+   "id": "irc_SSZ",
+   "trajectory": "trajectory.xyz"
+  },
+  "paths/irc_a1_CO": {
+   "collected": "2026-11-18",
+   "frames_from": [
+    "attempt1/orca6_IRC/67-alkyne-tetracyclone-decarbonylation-TS/orca_IRC_Full_trj.xyz"
+   ],
+   "id": "irc_a1_CO"
+  },
+  "paths/irc_a1_DA": {
+   "collected": "2026-11-18",
+   "frames_from": [
+    "attempt1/orca6_IRC/67-alkyne-tetracyclone-trap-TS/orca_IRC_Full_trj.xyz"
+   ],
+   "id": "irc_a1_DA"
+  },
+  "paths/irc_a1_SSE": {
+   "collected": "2026-11-18",
+   "frames_from": [
+    "attempt1/orca6_IRC/67-carbene-tetracyclone-SSE-trap-TSb/orca_IRC_Full_trj.xyz"
+   ],
+   "id": "irc_a1_SSE"
+  },
+  "paths/neb_FBW": {
+   "collected": "2026-11-18",
+   "frames_from": [
+    "attempt3/Step2_NEB-TS/path2a_FBW-TS/orca_MEP_trj.xyz"
+   ],
+   "id": "neb_FBW"
+  },
+  "paths/neb_SSE": {
+   "collected": "2026-11-18",
+   "frames_from": [
+    "attempt3/Step2_NEB-TS/path1b_SSE-TSb/orca_MEP_trj.xyz"
+   ],
+   "id": "neb_SSE"
+  },
+  "paths/neb_SSZ": {
+   "collected": "2026-11-18",
+   "frames_from": [
+    "attempt3/Step2_NEB-TS/path1a_SSZ-TSa/orca_MEP_trj.xyz"
+   ],
+   "id": "neb_SSZ"
+  },
+  "paths/scan_CO": {
+   "collected": "2026-11-18",
+   "frames_from": [
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.001.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.002.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.003.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.004.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.005.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.006.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.007.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.008.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.009.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.010.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.011.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.012.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.013.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.014.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-decarbonylation-TS/orca.015.xyz"
+   ],
+   "id": "scan_CO"
+  },
+  "paths/scan_DA": {
+   "collected": "2026-11-18",
+   "frames_from": [
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.001.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.002.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.003.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.004.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.005.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.006.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.007.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.008.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.009.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.010.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.011.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.012.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.013.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.014.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.015.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.016.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.017.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.018.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.019.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.020.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.021.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.022.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.023.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.024.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.025.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.026.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.027.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.028.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.029.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.030.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.031.xyz",
+    "attempt2/Step2_scan/67-alkyne-tetracyclone-trap-TS/orca.032.xyz"
+   ],
+   "id": "scan_DA"
+  },
+  "paths/scan_SSE": {
+   "collected": "2026-11-18",
+   "frames_from": [
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.001.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.002.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.003.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.004.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.005.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.006.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.007.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.008.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.009.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.010.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.011.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.012.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.013.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.014.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.015.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.016.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.017.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.018.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.019.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.020.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.021.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.022.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.023.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.024.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.025.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.026.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.027.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.028.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.029.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.030.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.031.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.032.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.033.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.034.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.035.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.036.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSE-trap-TSb/orca.037.xyz"
+   ],
+   "id": "scan_SSE"
+  },
+  "paths/scan_SSZ": {
+   "collected": "2026-11-18",
+   "frames_from": [
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.001.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.002.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.003.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.004.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.005.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.006.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.007.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.008.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.009.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.010.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.011.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.012.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.013.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.014.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.015.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.016.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.017.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.018.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.019.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.020.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.021.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.022.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.023.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.024.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.025.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.026.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.027.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.028.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.029.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.030.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.031.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.032.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.033.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.034.xyz",
+    "attempt2/Step2_scan/67-carbene-tetracyclone-SSZ-trap-TSa/orca.035.xyz"
+   ],
+   "id": "scan_SSZ"
+  },
+  "product": {
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "b243040f6ebf9c895ca78b409372e90ec5b0f53e39048e4e95d27d5f72c4a980",
+    "source": "original_data/FBW_paper/working/06_analysis/final_DFT/67-alkyne-tetracyclone-decarbonylated.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "product"
+  },
+  "tetracyclone": {
+   "cc": {
+    "collected": "2026-11-18",
+    "file": "dlpno.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "dddf6e13eebaa545f7286f3ec809f023e3af89686599474830454fc6ba038b66",
+    "source": "DLPNO_Section/Step1_DLPNO/tetracyclone/output.out",
+    "state": "terminated normally"
+   },
+   "dft": {
+    "collected": "2026-11-18",
+    "file": "output.out.gz",
+    "normal": true,
+    "note": "",
+    "sha256": "b998fbd5d3181651223994a9c2e166a5a2daf2b3c9acc0a10be6a3126abcfd93",
+    "source": "original_data/FBW_paper/working/06_analysis/final_DFT/tetracyclone.out",
+    "state": "optimisation converged, frequencies done, terminated normally"
+   },
+   "id": "tetracyclone"
+  }
+ },
+ "collected": "2026-11-18",
+ "root": "(project folder)"
+}

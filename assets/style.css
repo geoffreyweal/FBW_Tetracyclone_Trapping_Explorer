@@ -56,7 +56,7 @@ h1 { font-size: 19px; margin: 0 0 2px; font-weight: 650; letter-spacing: -0.01em
 main { padding: 16px 20px 24px; }
 .tab { display: none; }
 .tab.on { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 16px; }
-#tab-species.on, #tab-about.on { grid-template-columns: minmax(0, 1fr); }
+#tab-species.on, #tab-about.on, #tab-energies.on { grid-template-columns: minmax(0, 1fr); }
 .list { display: flex; flex-direction: column; gap: 6px; }
 .list h3 { font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 12px 4px 2px; }
 .list h3:first-child { margin-top: 0; }
@@ -131,6 +131,8 @@ svg .tick { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-n
 svg .axislab { fill: var(--muted); font-size: 11.5px; }
 svg .link { stroke: var(--muted); stroke-width: 1.2; stroke-dasharray: 4 3; }
 svg .link.bridge { stroke-dasharray: 1.5 3; opacity: 0.7; }
+svg .link.conf { stroke: var(--key); stroke-dasharray: 1 4; stroke-width: 1.8; opacity: 1; }
+svg .lab.small { font-size: 10.5px; }
 svg .lvlbar { stroke-width: 5; stroke-linecap: round; }
 svg .lvlbar.k-ts { stroke: var(--ts); }
 svg .lvlbar.k-minimum { stroke: var(--min); }
@@ -148,3 +150,17 @@ svg .edot { fill: var(--accent); }
 svg .cursor { stroke: var(--key); stroke-width: 1; stroke-dasharray: 3 3; }
 svg .emark { fill: var(--key); stroke: var(--panel); stroke-width: 1.5; }
 svg .hitarea { fill: transparent; cursor: pointer; }
+/* Energies tab, table groups, status badges */
+.energies { display: grid; gap: 16px; max-width: 1200px; }
+.card h2 { font-size: 15px; margin: 0 0 8px; }
+ul.tight { margin: 4px 0 0; padding-left: 20px; }
+ul.tight li { margin: 4px 0; max-width: 110ch; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12.5px; background: var(--bg); padding: 1px 4px; border-radius: 4px; }
+table.static tbody tr { cursor: default; }
+table.static tbody tr:hover { background: none; }
+tr.grp td { font-weight: 650; background: var(--bg); color: var(--ink); cursor: default; }
+tbody tr.grp:hover { background: var(--bg); }
+.badge { display: inline-block; font-size: 11px; padding: 0 7px; border-radius: 99px; border: 1px dashed var(--muted); color: var(--muted); margin-left: 6px; vertical-align: 1px; white-space: nowrap; }
+.ok { color: var(--cplx); font-weight: 600; white-space: nowrap; }
+.bad { color: var(--ts); font-weight: 600; }
+td.nowrap { white-space: nowrap; }

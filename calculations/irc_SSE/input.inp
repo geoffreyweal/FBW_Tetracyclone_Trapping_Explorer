@@ -1,0 +1,20 @@
+!M062X def2-TZVP D3Zero
+!IRC TightSCF defgrid2
+%SCF
+    MaxIter 2000       # Here setting MaxIter to a very high number. Intended for systems that require sometimes 1000 iterations before converging (very rare).
+    DIISMaxEq 5        # Default value is 5. A value of 15-40 necessary for difficult systems.
+    directresetfreq 15 # Default value is 15. A value of 1 (very expensive) is sometimes required. A value between 1 and 15 may be more cost-effective.
+END
+%CPCM EPSILON 9.08 REFRAC 1.424 END
+%PAL NPROCS 32 END
+%maxcore 1800 # Max memory per core in MB (1.8 GB x 32 = 57.6 GB); the job has 2000MB per CPU (64 GB) from Slurm
+%IRC
+    MaxIter 2000
+    InitHess read            # Analytic Hessian of this TS (attempt-1 v2 frequency job)
+    Hess_Filename "TS.hess"
+    Direction both
+    TolMAXG 2.e-3  # Max gradient (a.u.), as in the paper template. Both ends are then optimised in ../Step2_IRC_endpoints
+    TolRMSG 5.e-4  # RMS gradient (a.u.), as in the paper template
+    PrintLevel 1
+END
+* xyzfile 0 1 TS.xyz

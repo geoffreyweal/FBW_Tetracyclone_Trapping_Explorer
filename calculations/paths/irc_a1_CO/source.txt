@@ -1,0 +1,2 @@
+Copied on 2026-11-18 by tools/collect.py from the project folder (paths relative to it):
+attempt1/orca6_IRC/67-alkyne-tetracyclone-decarbonylation-TS/orca_IRC_Full_trj.xyz

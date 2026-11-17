@@ -1,0 +1,7 @@
+id,transition structure,imag_freq_cm-1,forming,forming_A,breaking,breaking_A
+TS_SSZ,"S,S,Z-#-TSa ([1+2], Z face)",-213.98,C15–C22 C15–C21,"2.242, 2.611",,—
+TS_SSE,"S,S,E-#-TSb ([1+2], E face)",-230.35,C15–C21 C15–C22,"2.221, 2.600",,—
+TS_FBW,#-FBW-TS (FBW rearrangement),-362.52,C5–C16,1.797,C2–C5,1.970
+TS_DA,#-TS [4+2] (Diels–Alder),-237.58,C14–C21 C18–C25,"2.461, 2.465",,—
+TS_DA_a1,"#-TS [4+2], higher conformer (attempt 1)",-212.48,C14–C21 C18–C25,"2.496, 2.471",,—
+TS_CO,#-TS CO extrusion,-446.60,,—,C21–C28 C25–C28,"1.987, 1.974"

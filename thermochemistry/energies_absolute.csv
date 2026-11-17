@@ -1,0 +1,27 @@
+id,structure,type,status,Nimag,imag_freq_cm-1,Eel_M06-2X_Eh,ZPE_Eh,H_Eh,T.S_Eh,T.qh-S_Eh,G_minus_Eel_Eh,G_M06-2X_1M_Eh,G_M06-2X_1atm_Eh,Eel_DLPNO-CCSD(T)_Eh,T1,G_composite_1M_Eh
+carbene,[2.2.2] carbene,minimum,complete,0,,-350.022495,0.187112,-349.825862,0.040539,0.040128,0.156505,-349.865990,-349.869209,-349.410160,0.012,-349.253655
+tetracyclone,Tetracyclone (trapping reagent),minimum,complete,0,,-1192.295058,0.401499,-1191.866946,0.082466,0.076709,0.351403,-1191.943655,-1191.946875,-1190.165957,0.011,-1189.814554
+complex_Z,"Carbene·tetracyclone complex, Z face",complex,complete,0,,-1542.332343,0.589082,-1541.705774,0.110163,0.098927,0.527642,-1541.804701,-1541.807920,,,
+TS_SSZ,"S,S,Z-#-TSa ([1+2], Z face)",ts,complete,1,-213.98,-1542.324348,0.590244,-1541.698355,0.102028,0.093984,0.532009,-1541.792339,-1541.795559,,,
+SSZ,"S,S,Z-# ([1+2] adduct)",minimum,complete,0,,-1542.440208,0.593297,-1541.811431,0.103788,0.094113,0.534664,-1541.905544,-1541.908764,,,
+complex_E,"Carbene·tetracyclone complex, E face",complex,complete,0,,-1542.334880,0.589483,-1541.708249,0.107207,0.097465,0.529167,-1541.805714,-1541.808933,,,
+TS_SSE,"S,S,E-#-TSb ([1+2], E face)",ts,complete,1,-230.35,-1542.327858,0.589673,-1541.702308,0.103096,0.094478,0.531072,-1541.796786,-1541.800005,,,
+SSE,"S,S,E-# ([1+2] adduct)",minimum,complete,0,,-1542.440333,0.593694,-1541.811292,0.102800,0.093653,0.535388,-1541.904945,-1541.908165,,,
+TS_FBW,#-FBW-TS (FBW rearrangement),ts,complete,1,-362.52,-350.011791,0.186929,-349.815976,0.038793,0.038706,0.157109,-349.854682,-349.857901,-349.395114,0.011,-349.238005
+alkyne,[3.2.2] alkyne,minimum,complete,0,,-350.041641,0.188631,-349.843861,0.039343,0.039168,0.158612,-349.883029,-349.886249,-349.429325,0.011,-349.270713
+complex_alkyne,Alkyne·tetracyclone complex (attempt 3),complex,freq,,,-1542.351766,,,,,,,,,,
+TS_DA,#-TS [4+2] (Diels–Alder),ts,complete,1,-237.58,-1542.342879,0.590487,-1541.716676,0.102278,0.093991,0.532213,-1541.810666,-1541.813886,,,
+TS_DA_a1,"#-TS [4+2], higher conformer (attempt 1)",ts,complete,1,-212.48,-1542.341926,0.590643,-1541.715507,0.103179,0.094457,0.531961,-1541.809965,-1541.813184,,,
+adduct,[4+2] adduct,minimum,complete,0,,-1542.443021,0.594841,-1541.813497,0.099986,0.091860,0.537663,-1541.905358,-1541.908577,,,
+TS_CO,#-TS CO extrusion,ts,complete,1,-446.60,-1542.412761,0.592007,-1541.785788,0.099925,0.092193,0.534780,-1541.877981,-1541.881200,,,
+complex_prodCO,Decarbonylated product·CO complex (attempt 3),complex,unconverged,,,-1542.494313,,,,,,,,,,
+product,Decarbonylated product,minimum,complete,0,,-1429.163521,0.585178,-1428.545311,0.096158,0.088567,0.529643,-1428.633878,-1428.637098,,,
+CO,Carbon monoxide,minimum,complete,0,,-113.322954,0.005169,-113.314314,0.020493,0.020493,-0.011853,-113.334808,-113.338027,,,
+ep_SSZ_F,"Carbene·tetracyclone complex, Z face (S,S,Z IRC end)",complex,freq,,,-1542.332303,,,,,,,,,,
+ep_SSZ_B,"S,S,Z-# (S,S,Z IRC end)",minimum,complete,0,,-1542.440214,0.593395,-1541.811417,0.102880,0.093657,0.535141,-1541.905074,-1541.908293,,,
+ep_SSE_F,"S,S,E-# (S,S,E IRC end)",minimum,complete,0,,-1542.440347,0.593755,-1541.811269,0.102640,0.093584,0.535494,-1541.904853,-1541.908073,,,
+ep_SSE_B,"Carbene·tetracyclone complex, E face (S,S,E IRC end)",complex,complete,0,,-1542.334848,0.589517,-1541.708230,0.106815,0.097301,0.529317,-1541.805531,-1541.808751,,,
+ep_FBW_F,[2.2.2] carbene (FBW IRC end),minimum,complete,0,,-350.022495,0.187114,-349.825862,0.040533,0.040124,0.156509,-349.865987,-349.869206,,,
+ep_FBW_B,[3.2.2] alkyne (FBW IRC end),minimum,complete,0,,-350.041706,0.188603,-349.843891,0.039706,0.039295,0.158520,-349.883186,-349.886405,,,
+ep_DA_F,[4+2] adduct from the lowest [4+2] TS ([4+2] IRC end),minimum,freq,,,-1542.442750,,,,,,,,,,
+ep_DA_B,Alkyne·tetracyclone complex ([4+2] IRC end),complex,freq,,,-1542.351767,,,,,,,,,,
